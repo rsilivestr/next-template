@@ -1,15 +1,15 @@
-import createCache from '@emotion/cache';
-import { CacheProvider } from '@emotion/react';
 import type { AppProps } from 'next/app';
-
-import '../styles';
-
-const cache = createCache({ key: 'next' });
+import Head from 'next/head';
 
 const App = ({ Component, pageProps }: AppProps) => (
-  <CacheProvider value={cache}>
+  <>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>App</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
     <Component {...pageProps} />
-  </CacheProvider>
+  </>
 );
 
 export default App;
