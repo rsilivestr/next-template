@@ -7,7 +7,6 @@
   "extends": [
     "next",
     "airbnb",
-    "airbnb/hooks",
     "plugin:import/typescript",
     "eslint-config-prettier"
   ],
