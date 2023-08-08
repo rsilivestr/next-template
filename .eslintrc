@@ -31,8 +31,6 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "max-len": ["error", { "code": 100, "ignoreRegExpLiterals": true, "ignoreStrings": true }],
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
     "react/function-component-definition": [
@@ -40,7 +38,7 @@
       { "namedComponents": "arrow-function", "unnamedComponents": "arrow-function" }
     ],
     "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
-    "react/jsx-props-no-spreading": ["error", { "exceptions": ["App", "Component"] }],
+    "react/jsx-props-no-spreading": ["error", { "exceptions": [] }],
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/prop-types": "off"
